@@ -1,0 +1,151 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  font-size: large;
+  align-items: first baseline;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(156, 159, 175, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: hwb(0 100% 0%);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #050000;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+/* Nav bar Css Code*/
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.split {
+  float: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav a.sp {
+  float: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 900px) {
+  nav ul {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    background: #2c3e50;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    margin-top: 20px;
+  }
+
+  .checkbtn {
+    display: block;
+    margin-right: 20px;
+  }
+}
