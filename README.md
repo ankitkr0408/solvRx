@@ -56,16 +56,16 @@ Open a web browser and navigate to http://localhost/solvrx.
 ```
 ## **Usage**
 **Running the Application**
--Open your web browser and go to http://localhost/solvrx.
--Use the application to manage doctor appointments and patient records.
+- Open your web browser and go to http://localhost/solvrx.
+- Use the application to manage doctor appointments and patient records.
 **Admin Access**
 To access the admin panel, navigate to http://localhost/solvrx/admin.
 ## **Contributors** 
 I thank the following people for their contributions to SolvRx:
--Ankit Kumar :- @ankitkr0408
--Adhish Biju :- @adhishbiju2000
--Shah Arman :- @shaharman18
--Tej Ambre :- @Tej1355
+- Ankit Kumar :- [@ankitkr0408](https://github.com/ankitkr0408)
+- Adhish Biju :- [@adhishbiju2000](https://github.com/adhishbiju2000)
+- Shah Arman :- [@shaharman18](https://github.com/shaharman18)
+- Tej Ambre :- [@Tej1355](https://github.com/Tej1355)
 ## **Contact**
 For any inquiries or feedback, please reach out to us at:
 
