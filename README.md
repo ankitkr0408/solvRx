@@ -2,7 +2,7 @@
 
 **SolvRx** is a web-based application designed to streamline the process of booking doctor appointments. With an intuitive interface and robust features, **SolvRx** aims to simplify the patient experience while offering efficient management for healthcare providers.
 
-![SolvRx Logo](link_to_logo_image)
+
 
 ## **Features**
 
@@ -29,24 +29,22 @@ git clone https://github.com/your-username/solvRx.git
 ```
 2. Navigate to the project directory:
 ```bash
-sh
-Copy code
 cd solvRx
 ```
 3. Set up the database:
 
-Start XAMPP and ensure that Apache and MySQL are running.
-Open phpMyAdmin and create a new database named solvrx.
-Import the database schema from database/solvrx.sql.
-Configure the backend:
-
-Open config.php and update the database credentials:
-php
-Copy code
+- Start XAMPP and ensure that Apache and MySQL are running.
+- Open phpMyAdmin and create a new database named solvrx.
+- Import the database schema from database/solvrx.sql.
+  
+4. Configure the backend:
+- Open php file and update the database credentials:
+```php
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'your-username');
 define('DB_PASSWORD', 'your-password');
 define('DB_NAME', 'solvrx');
+```
 Start the development server:
 
 Move the project directory to the XAMPP htdocs directory:
