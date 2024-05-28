@@ -2,7 +2,8 @@
 
 **SolvRx** is a web-based application designed to streamline the process of booking doctor appointments. With an intuitive interface and robust features, **SolvRx** aims to simplify the patient experience while offering efficient management for healthcare providers.
 
-
+## **Demo**
+Link : For demo click here  [Video](https://drive.google.com/file/d/1SJ5hEHzlcTd51cZnQzgyalvA_dSo-RST/view?usp=sharing)
 
 ## **Features**
 
@@ -45,45 +46,27 @@ define('DB_USERNAME', 'your-username');
 define('DB_PASSWORD', 'your-password');
 define('DB_NAME', 'solvrx');
 ```
-Start the development server:
+5. Start the development server:
 
-Move the project directory to the XAMPP htdocs directory:
-sh
-Copy code
+-Move the project directory to the XAMPP htdocs directory:
+```sh
+
 mv ~/path-to-solvrx /path-to-xampp/htdocs/solvrx
 Open a web browser and navigate to http://localhost/solvrx.
-Usage
-Running the Application
-Open your web browser and go to http://localhost/solvrx.
-Use the application to manage doctor appointments and patient records.
-Admin Access
+```
+## **Usage**
+**Running the Application**
+-Open your web browser and go to http://localhost/solvrx.
+-Use the application to manage doctor appointments and patient records.
+**Admin Access**
 To access the admin panel, navigate to http://localhost/solvrx/admin.
-Use the default admin credentials:
-Username: admin
-Password: admin123
-Contributing
-We welcome contributions to SolvRx! Please follow these steps to contribute:
-
-Fork the repository.
-Create a new branch:
-sh
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes.
-Commit your changes:
-sh
-Copy code
-git commit -m 'Add some feature'
-Push to the branch:
-sh
-Copy code
-git push origin feature/your-feature-name
-Create a new Pull Request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
+## **Contributors** 
+I thank the following people for their contributions to SolvRx:
+-Ankit Kumar :- @ankitkr0408
+-Adhish Biju :- @adhishbiju2000
+-Shah Arman :- @shaharman18
+-Tej Ambre :- @Tej1355
+## **Contact**
 For any inquiries or feedback, please reach out to us at:
 
-Email: support@solvrx.com
-Twitter: @solvRx
+Email: ankit75kumar3e@gmail.com
